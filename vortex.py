@@ -52,29 +52,29 @@ def main_menu():
         choice = input(f"\n{C}VORTEX > {rst}")
 
         if choice == '1' or choice == '01':
-            os.system('python3 VortexSub.py')
+            os.system('python3 vortexsub.py')
         elif choice == '2' or choice == '02':
-            os.system('python3 VortexDork.py')
+            os.system('python3 vortexdork.py')
         elif choice == '3' or choice == '03':
-            os.system('python3 VortexCrawl.py')
+            os.system('python3 vortexcrawl.py')
         elif choice == '4' or choice == '04':
-            os.system('python3 VortexIP.py')
+            os.system('python3 vortexip.py')
         elif choice == '5' or choice == '05':
-            os.system('python3 VortexMeta.py')
+            os.system('python3 vortexmeta.py')
         elif choice == '6' or choice == '06':
-            os.system('python3 VortexNet.py')
+            os.system('python3 vortexnet.py')
         elif choice == '7' or choice == '07':
-            os.system('python3 VortexPort.py')
+            os.system('python3 vortexport.py')
         elif choice == '8' or choice == '08':
-            os.system('python3 VortexSys.py')
+            os.system('python3 vortexsys.py')
         elif choice == '9' or choice == '09':
-            os.system('python3 VortexHash.py')
+            os.system('python3 vortexhash.py')
         elif choice == '10':
-            os.system('python3 VortexZip.py')
+            os.system('python3 vortexzip.py')
         elif choice == '11':
-            os.system('python3 VortexSpam.py')
+            os.system('python3 vortexspam.py')
         elif choice == '12':
-            os.system('python3 VortexQR.py')
+            os.system('python3 vortexqr.py')
         elif choice == '00' or choice == '0':
             print(f"\n{R}[!] Shutting down VORTEX...{rst}")
             sys.exit()
