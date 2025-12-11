@@ -1,0 +1,5 @@
+requests
+qrcode
+beautifulsoup4
+pillow
+
